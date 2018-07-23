@@ -134,6 +134,13 @@ body{
   color:black;
 }
 
+.Questionnaire:hover{
+  color:black;
+}
+.Douban:hover{
+  color:black;
+}
+
   .projectcircle {
     position: relative;
    top:50%;
@@ -305,6 +312,7 @@ body{
      text-align: center;
      color: white;
    }
+
 
    .projects{
        padding: 100px;
