@@ -241,7 +241,7 @@ body{
   .project1 div {
     float: left;
     width: 100%;
-    padding-top: 50%;
+    padding-top: 45%;
     line-height: 1em;
     margin-top: -0.5em;
     text-align: center;
@@ -252,7 +252,7 @@ body{
     top:20%;
     left:20%;
     margin-top:50px;
-    margin-left:-300px;
+    margin-left:-200px;
      width: 20vw;
      height: 20vw;
      
@@ -273,7 +273,7 @@ body{
     position: relative; 
     float: left;
      width: 100%;
-     padding-top: 50%;
+     padding-top: 45%;
      line-height: 1em;
      margin-top: -0.5em;
      text-align: center;
@@ -285,7 +285,7 @@ body{
     left:20%;
     position: relative;
     margin-top:-250px;
-    margin-left:150px;
+    margin-left:250px;
      width: 20vw;
      height: 20vw;
      
@@ -306,7 +306,7 @@ body{
      position: absolute;
     float: left;
      width: 100%;
-     padding-top: 50%;
+     padding-top: 42%;
      line-height: 1em;
      margin-top: -0.5em;
      text-align: center;
@@ -319,6 +319,30 @@ body{
        margin: 150px;
        
    }
+
+   #myBtn {
+    display: none; /* Hidden by default */
+    position: fixed; /* Fixed/sticky position */
+    bottom: 20px; /* Place the button at the bottom of the page */
+    right: 30px; /* Place the button 30px from the right */
+    z-index: 99; /* Make sure it does not overlap */
+    border: none; /* Remove borders */
+    outline: none; /* Remove outline */
+    background-color: #F8E9A1;/* Set a background color */
+    color: #4679BD; /* Text color */
+    cursor: pointer; /* Add a mouse pointer on hover */
+    padding: 15px; /* Some padding */
+    border-radius: 10px; /* Rounded corners */
+    font-size: 18px; /* Increase font size */
+}
+
+#myBtn:hover {
+    background-color: #555; /* Add a dark-grey background on hover */
+}
+
+
+
+
    .footerContainer {
     position: inherit;
     left: 0;
